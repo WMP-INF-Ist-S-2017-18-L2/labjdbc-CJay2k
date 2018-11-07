@@ -11,6 +11,7 @@ public class PO {
         DbAccess baza = new DbAccess();
         
         baza.DbAccess();
+        
         baza.SzukajN("banan");
         baza.SzukajC(10);
     }
